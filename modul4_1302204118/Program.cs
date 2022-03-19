@@ -8,11 +8,17 @@ namespace mod4_1302204118
         static void Main(string[] args)
     {
         
+
         SimpleDataBase<double> db = new SimpleDataBase<double>();
         db.AddNewData(int);
         db.AddNewData(int);
         db.AddNewData(int);
         db.PrintAllData();
+
+        Console.WriteLine(Penjumlahan.JumlahTigaAngka<int>(12, 34, 56));
+
+        
+
     }
 }
 
