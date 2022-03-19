@@ -8,7 +8,7 @@ namespace mod4_1302204118
         static void Main(string[] args)
     {
         
-        Console.WriteLine(Penjumlahan.JumlahTigaAngka<long>(12, 34, 56));
+        Console.WriteLine(Penjumlahan.JumlahTigaAngka<int>(12, 34, 56));
 
         
     }
